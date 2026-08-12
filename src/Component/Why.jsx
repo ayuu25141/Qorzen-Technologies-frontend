@@ -54,12 +54,12 @@ function WhyChooseUs() {
           <div className="mb-5 flex items-center gap-3">
             <span className="h-px w-10 bg-gradient-to-r from-blue-500 to-cyan-400" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em]     bg-gradient-to-r
+            <span className="text-xl font-semibold uppercase tracking-[0.25em]     bg-gradient-to-r
     from-[#E91E9B]
     to-[#7416D9]
     bg-clip-text
     text-transparent">
-              Why Choose QorZen Technologies
+           About us
             </span>
           </div>
 

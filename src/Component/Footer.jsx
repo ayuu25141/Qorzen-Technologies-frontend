@@ -29,8 +29,8 @@ const handlemail = ()=>{
 }
 
   
-  return <footer  className="bg-white mt-10 text-black">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  return <footer  className=  "bg-[#FAF8FF] border-t border-purple-100 mt-10  text-black">
+      <div className="container pt-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div className="space-y-4">
           <div className="flex items-center space-x-2">
    <img
