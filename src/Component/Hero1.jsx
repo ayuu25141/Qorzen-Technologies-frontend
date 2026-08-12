@@ -99,15 +99,20 @@ import { Link } from "react-router-dom";function Hero1() {
           group
           inline-flex items-center justify-center gap-2
           rounded-xl
-          bg-blue-600
+      
           px-8 py-4
           text-base font-semibold
-          text-white
-          shadow-lg shadow-blue-600/25
-          transition-all duration-300
-          hover:-translate-y-1
-          hover:bg-blue-700
-          hover:shadow-xl hover:shadow-blue-600/30
+             text-white
+    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7424E8]
+    hover:from-[#D9188F]
+    hover:to-[#6420D0]
+    rounded-lg
+    transition-all
+    duration-200
+    shadow-sm
+    hover:shadow-[#7424E8]/30
         "
       >
         Explore Courses
@@ -134,17 +139,19 @@ import { Link } from "react-router-dom";function Hero1() {
         className="
           inline-flex items-center justify-center
           rounded-xl
-          border border-gray-300
-          bg-white
+        
           px-8 py-4
-          text-base font-semibold
-          text-gray-800
-          shadow-sm
-          transition-all duration-300
-          hover:-translate-y-1
-          hover:border-blue-300
-          hover:bg-blue-50
-          hover:text-blue-600
+          text-white
+    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7424E8]
+    hover:from-[#D9188F]
+    hover:to-[#6420D0]
+    rounded-lg
+    transition-all
+    duration-200
+    shadow-sm
+    hover:shadow-[#7424E8]/30
         "
       >
         Start Learning
