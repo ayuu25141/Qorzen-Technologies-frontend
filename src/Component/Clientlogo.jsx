@@ -87,13 +87,21 @@ const logos = [
  
   <div className="mx-auto max-w-3xl mt-5 text-center">
 
-  <span className="text-xl font-semibold uppercase tracking-[0.3em] text-blue-400">
+  <span className="text-xl font-semibold uppercase tracking-[0.3em] bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
  OUR CLIENTS
   </span>
 
   <h2 className="mt-5 text-4xl font-extrabold tracking-tight text-black sm:text-5xl lg:text-6xl">
 Trusted Partnerships.<br></br>
-    <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-cyan-400 bg-clip-text text-transparent">
+    <span className="bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
        Meaningful Results.
     <br />
     </span>

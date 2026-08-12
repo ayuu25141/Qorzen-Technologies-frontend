@@ -143,11 +143,19 @@ let trainigsection  = [
     {/* Brand Typography */}
     <div className="flex flex-col justify-center leading-none">
       {/* 2. FIXED: 'font-white' को 'text-white' में बदला */}
-      <span className="text-black font-extrabold text-xl tracking-wide font-sans">
+      <span className="    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent font-extrabold text-xl tracking-wide font-sans">
         QorZen
       </span>
       {/* 3. सब-टेक्स्ट का साइज और स्पेसिंग परफेक्ट की */}
-      <span className="text-sky-400 font-bold text-[10px] tracking-[0.12em] mt-0.5 uppercase">
+      <span className="    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent font-bold text-[15px] tracking-[0.12em] mt-0.5 uppercase">
         Technologies
       </span>
     </div>
@@ -201,42 +209,6 @@ let trainigsection  = [
   )}
 </li>
 
-{/* Courses section */}
-
-
-        <li
-  onMouseEnter={() => opencourse(true)}
-  onMouseLeave={() => opencourse(false)}
-  className="relative"
->
-<button
-  type="button"
-  className="flex items-center gap-1 cursor-pointer hover:text-sky-500"
->
-Courses
-
-  <FiChevronDown
-    className={`transition-transform duration-200 ${
-      course ? "rotate-180" : "rotate-0"
-    }`}
-  />
-</button>
-  {course && (
-    <ul className="absolute left-0 top-full z-50 top-full w-max rounded-lg border border-gray-100 bg-white p-2 text-sm text-black shadow-lg">
-      {coursesection.map((elem) => (
-        <li key={elem.id} className="hover:text-sky-500">
-          <a
-            href={elem.link}
-            className="block whitespace-nowrap rounded-md px-4 py-2 transition-colors hover:bg-white"
-          >
-            {elem.name}
-          </a>
-        </li>
-      ))}
-    </ul>
-  )}
-</li>
-
 
 
 {/* Training  section */}
@@ -274,6 +246,53 @@ Training
     </ul>
   )}
 </li>
+
+
+
+
+
+
+
+
+
+
+{/* Courses section */}
+
+
+        <li
+  onMouseEnter={() => opencourse(true)}
+  onMouseLeave={() => opencourse(false)}
+  className="relative"
+>
+<button
+  type="button"
+  className="flex items-center gap-1 cursor-pointer hover:text-sky-500"
+>
+Courses
+
+  <FiChevronDown
+    className={`transition-transform duration-200 ${
+      course ? "rotate-180" : "rotate-0"
+    }`}
+  />
+</button>
+  {course && (
+    <ul className="absolute left-0 top-full z-50 top-full w-max rounded-lg border border-gray-100 bg-white p-2 text-sm text-black shadow-lg">
+      {coursesection.map((elem) => (
+        <li key={elem.id} className="hover:text-sky-500">
+          <a
+            href={elem.link}
+            className="block whitespace-nowrap rounded-md px-4 py-2 transition-colors hover:bg-white"
+          >
+            {elem.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</li>
+
+
 
 
 
@@ -333,12 +352,27 @@ Resources
     Login
   </button>
 
-  <button
-    type="button"
-    className="px-5 py-2  font-medium text-white bg-sky-500 hover:bg-sky-600 rounded-lg transition-all duration-200 shadow-sm hover:shadow-sky-500/30"
-  >
-    Sign Up
-  </button>
+<button
+  type="button"
+  className="
+    px-5
+    py-2
+    font-medium
+    text-white
+    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7424E8]
+    hover:from-[#D9188F]
+    hover:to-[#6420D0]
+    rounded-lg
+    transition-all
+    duration-200
+    shadow-sm
+    hover:shadow-[#7424E8]/30
+  "
+>
+  Sign Up
+</button>
 </div>
     </div>
   )

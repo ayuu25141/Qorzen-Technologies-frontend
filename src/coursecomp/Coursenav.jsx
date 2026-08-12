@@ -132,7 +132,7 @@ let trainigsection  = [
     <div className="navbar bg-white text-black border-solid border-b-black px-4 md:px-8">
       {/* Brand Logo Section */}
    <div className="flex-1">
-  <a className="flex items-center gap-3 cursor-pointer font-sans select-none">
+  <a href='/courses' className="flex items-center gap-3 cursor-pointer font-sans select-none">
  
     <img
       src={logoimage}
@@ -158,7 +158,7 @@ let trainigsection  = [
       {/* Navigation Links */}
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal px-1 gap-4 font-medium text-xl text-black">
-          <li><a className="hover:text-sky-500 focus:bg-transparent active:bg-transparent">Home</a></li>
+          <li><a href='/' className="hover:text-sky-500 focus:bg-transparent active:bg-transparent">Home</a></li>
           
           {/* Services Dropdown */}
        {/* 1. Added 'relative' so the dropdown floats directly underneath */}

@@ -421,7 +421,11 @@ export default function ProjectCarousel() {
             font-semibold
             uppercase
             tracking-[0.2em]
-            text-sky-500
+           bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent
           "
         >
           Our Projects
@@ -437,7 +441,11 @@ export default function ProjectCarousel() {
           "
         >
           Ideas turned into
-          <span className="text-sky-500">
+          <span className="bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
             {" "}
             digital experiences.
           </span>

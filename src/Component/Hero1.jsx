@@ -34,11 +34,15 @@ import { Link } from "react-router-dom";function Hero1() {
         bg-blue-50
         px-4 py-2
         text-sm font-semibold
-        text-blue-600
+           bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent
         shadow-sm
       "
     >
-      <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
+      <span className="h-2 w-2 rounded-full bg-green-600 animate-pulse" />
       Industry-Focused IT Training
     </div>
 
@@ -47,10 +51,11 @@ import { Link } from "react-router-dom";function Hero1() {
       className="
         max-w-5xl
         text-5xl
+        font-georgia
         font-extrabold
         leading-[1.05]
         tracking-tight
-        text-black
+      text-[#353243]
         sm:text-6xl
         md:text-7xl
         lg:text-7xl
@@ -59,7 +64,11 @@ import { Link } from "react-router-dom";function Hero1() {
       Build Skills.
       <br />
 
-      <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+      <span className="  bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
         Shape Your Future.
       </span>
     </h1>

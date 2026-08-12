@@ -105,23 +105,31 @@ const MasonryGrid = ({
     </div>;
 };
 export default function  Servicearc() {
-  return <div id='service'  className="font-sans transition-colors">
+  return <div id='service'  className=" transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="max-w-3xl">
   {/* Eyebrow */}
   <div className="mb-5 flex items-center gap-3">
     <span className="h-px w-10 bg-gradient-to-r from-blue-500 to-cyan-400" />
 
-    <span className="text-xl font-semibold uppercase tracking-[0.25em] text-blue-400">
+    <span className="text-xl font-semibold uppercase tracking-[0.25em] bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
       Our Services
     </span>
   </div>
 
   {/* Heading */}
-  <h2 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-black sm:text-5xl lg:text-6xl">
+  <h2 className="text-4xl font-extrabold leading-[1.1] tracking-tight  text-[#353243] sm:text-5xl lg:text-6xl">
     Technology Solutions,
     <br />
-    <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-cyan-400 bg-clip-text text-transparent">
+    <span className="bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
       Built Around Your Needs.
     </span>
   </h2>

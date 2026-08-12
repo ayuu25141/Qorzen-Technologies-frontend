@@ -54,16 +54,25 @@ function WhyChooseUs() {
           <div className="mb-5 flex items-center gap-3">
             <span className="h-px w-10 bg-gradient-to-r from-blue-500 to-cyan-400" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-blue-500">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em]     bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
               Why Choose QorZen Technologies
             </span>
           </div>
 
-          <h2 className="text-4xl font-bold leading-tight tracking-tight text-black sm:text-5xl">
+          <h2 className="text-4xl font-bold leading-tight tracking-tight  text-[#353243]
+sm:text-5xl">
             More Than Just Courses.
             <br />
 
-            <span className="bg-gradient-to-r from-blue-400 via-sky-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="    bg-gradient-to-r
+    from-[#E91E9B]
+    to-[#7416D9]
+    bg-clip-text
+    text-transparent">
               We Build Real Skills.
             </span>
           </h2>
